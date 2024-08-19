@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Educate-Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-2x fa-xmark" id="close"></i>
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html" id="page">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-3x fa-bars" id="menu"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!--------------------CONTACT----------------------------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923258337!2d77.23701138029934!3d28.52240403621733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1724073587408!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <!--------------------Contact----------------------------->
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-3x fa-house"></i>
+                <span>
+                    <h5>ABC Region, ABCnagar</h5>
+                    <p>Gurgaon, Haryana</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-3x fa-phone"></i>
+                <span>
+                    <h5>+45 5678475674</h5>
+                    <p>Mon-Sat 10AM - 5 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-3x fa-envelope-open-text"></i>
+                <span>
+                    <h5>abc@educate.ac.in</h5>
+                    <p>Mail us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="51dabaaf-325d-4e02-96e8-c95cc6ea9ff0">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="E-mail" required>
+                <input type="text" name="Subjects" placeholder="Subjects" required>
+                <textarea rows="8" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn red-btn">Send Message</button>
+            </form>
+        </div>
+      </div>  
+    </section>
+    
+    <!--------------------FOOTER----------------------------->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos <br> deleniti sint, nihil sunt facilis nulla itaque, consequatur reiciendis saepe recusandae ipsa unde aliquid autem laboriosam nesciunt omnis. Neque, vero nemo.</p>
+        <div class="icons">
+            <i class="fa-brands fa-3x fa-instagram"></i>
+            <i class="fa-brands fa-3x fa-facebook"></i>
+            <i class="fa-brands fa-3x fa-twitter"></i>
+            <i class="fa-brands fa-3x fa-linkedin"></i>
+        </div>
+        <p>Made by MAYANK</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
